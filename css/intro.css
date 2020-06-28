@@ -1,0 +1,38 @@
+#title{
+    display: grid;
+    margin-top: 5px;
+    font-size: 2em;
+    justify-items: center;
+}
+#rules{
+    display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    border: 8px solid black;
+    justify-items: center;
+    background-image: url("../images/b12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#choice{
+    display:grid;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+}
+
+#rules h3{
+    font-size: 1.8em;
+}
+#rules h2{
+    font-size: 3em;
+}
+#single-player,
+#two-player{
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: white;
+}

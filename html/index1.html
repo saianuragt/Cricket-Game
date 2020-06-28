@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket - Single Player</title>
+    <link rel="stylesheet" href="../css/style1.css" />
+    <script src="../js/app1.js" type="module"></script>
+  </head>
+
+  <body>
+    <div id="title">
+      <h1>Lets Play Cricket!</h1>
+    </div>
+    <div id="content">
+      <div id="left">
+        <div id="a1">
+          <h2>Score Board</h2>
+        </div>
+        <div id="score-display">
+          <div id="p1-scr">
+            <h3>Player-1:</h3>
+            <img src="../images/icon3_white.png" alt="p1-icon">
+            <h4>Score:</h4>
+            <span id="p1s" style="font-size: 2.2em;">0</span>
+            <h4>Wickets:</h4>
+            <span id="p1w" style="font-size: 2em;">0</span>
+            
+          </div>
+          <div id="p2-scr">
+            <h3>Computer:</h3>
+            <img src="../images/icon4_white.png" alt="p2-icon">
+            <h4>Score:</h4>
+            <span id="p2s" style="font-size: 2.2em;">0</span>
+            <h4>Wickets:</h4>
+            <span id="p2w" style="font-size: 2em;">0</span>
+            <!-- <br>
+            <button id="dice2" onclick>Play</button> -->
+          </div>
+        </div>
+        <button id="dice1" onclick>Play</button>
+        <br>
+        <div id="msg">
+          <span id="msg1"></span>
+        </div>
+      </div>
+      <div id="board">
+        <div id="p100">100<br />Centuary</div>
+        <div id="p99">99</div>
+        <div id="p98">98</div>
+        <div id="p97">97<br />Run Out <br />Go to 1</div>
+        <div id="p96">96</div>
+        <div id="p95">95</div>
+        <div id="p94">94</div>
+        <div id="p93">93</div>
+        <div id="p92">92</div>
+        <div id="p91">91<br />Hit Wicket<br />Go to 1</div>
+
+        <div id="p81">81</div>
+        <div id="p82">82<br />Four Runs<br />Go to 86</div>
+        <div id="p83">83</div>
+        <div id="p84">84</div>
+        <div id="p85">85</div>
+        <div id="p86">86</div>
+        <div id="p87">87</div>
+        <div id="p88">88</div>
+        <div id="p89">89</div>
+        <div id="p90">90</div>
+
+        <div id="p80">80</div>
+        <div id="p79">79</div>
+        <div id="p78">78</div>
+        <div id="p77">77 <br />Four Runs<br />Go to 81</div>
+        <div id="p76">76</div>
+        <div id="p75">75</div>
+        <div id="p74">74</div>
+        <div id="p73">73<br />Six Runs<br />Go to 79</div>
+        <div id="p72">72</div>
+        <div id="p71">71</div>
+
+        <div id="p61">61</div>
+        <div id="p62">62</div>
+        <div id="p63">63</div>
+        <div id="p64">64</div>
+        <div id="p65">65</div>
+        <div id="p66">66</div>
+        <div id="p67">67<br />Bowled<br />Go to 1</div>
+        <div id="p68">68</div>
+        <div id="p69">69</div>
+        <div id="p70">70</div>
+
+        <div id="p60">60<br />Six Runs<br />Go to 66</div>
+        <div id="p59">59</div>
+        <div id="p58">58</div>
+        <div id="p57">57</div>
+        <div id="p56">56</div>
+        <div id="p55">55<br />Caught Out<br />Go to 1</div>
+        <div id="p54">54</div>
+        <div id="p53">53</div>
+        <div id="p52">52</div>
+        <div id="p51">51</div>
+
+        <div id="p41">41</div>
+        <div id="p42">42</div>
+        <div id="p43">43</div>
+        <div id="p44">44</div>
+        <div id="p45">45</div>
+        <div id="p46">46</div>
+        <div id="p47">47<br />Over Throw<br />Go to 48</div>
+        <div id="p48">48</div>
+        <div id="p49">49</div>
+        <div id="p50">50</div>
+
+        <div id="p40">40</div>
+        <div id="p39">39</div>
+        <div id="p38">38<br />Six Runs<br />Go to 44</div>
+        <div id="p37">37</div>
+        <div id="p36">36</div>
+        <div id="p35">35</div>
+        <div id="p34">34</div>
+        <div id="p33">33</div>
+        <div id="p32">32</div>
+        <div id="p31">31</div>
+
+        <div id="p21">21</div>
+        <div id="p22">22</div>
+        <div id="p23">23</div>
+        <div id="p24">24</div>
+        <div id="p25">25<br />L.B.W<br />Go to 1</div>
+        <div id="p26">26</div>
+        <div id="p27">27</div>
+        <div id="p28">28</div>
+        <div id="p29">29</div>
+        <div id="p30">30<br />Run Out<br />Go to 1</div>
+
+        <div id="p20">20</div>
+        <div id="p19">19</div>
+        <div id="p18">18</div>
+        <div id="p17">17<br />Four Runs<br />Go to 21</div>
+        <div id="p16">16</div>
+        <div id="p15">15</div>
+        <div id="p14">14</div>
+        <div id="p13">13</div>
+        <div id="p12">12</div>
+        <div id="p11">11</div>
+
+        <div id="p1">1</div>
+        <div id="p2">2</div>
+        <div id="p3">3</div>
+        <div id="p4">4</div>
+        <div id="p5">5<br />Stumped Out<br />Go to 1</div>
+        <div id="p6">6</div>
+        <div id="p7">7<br />Wide Ball<br />Go to 8</div>
+        <div id="p8">8</div>
+        <div id="p9">9</div>
+        <div id="p10">10</div>
+      </div>
+    </div>
+    <div id="audio">
+      <audio id="button_audio1" src="../audio/button1.mp3"></audio>
+      <audio id="button_audio2" src="../audio/dice4.mp3"></audio>
+      <audio id="wicket_audio" src="../audio/wicket.mp3"></audio>
+      <audio id="four_audio" src="../audio/four.mp3"></audio>
+      <audio id="six_audio" src="../audio/six.mp3"></audio>
+      <audio id="extrarun_audio" src="../audio/extra run.mp3"></audio>
+    </div>
+  </body>
+</html>

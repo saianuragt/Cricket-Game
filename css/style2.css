@@ -1,0 +1,92 @@
+body{
+  background-color: whitesmoke;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  font-size: 1.1em;
+}
+
+#left {
+   display:table-row;
+  margin-left: 15px;
+  border: 5px solid black;
+  border-radius: 3%;
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+}
+
+#a1{
+  font-size: 1.5em;
+}
+
+#title {
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#score-display {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  font-size: 1.1em;
+} 
+
+#msg{
+  font-size: 2.2em;
+  margin-top: 8px;
+}
+
+#dice1,
+#dice2 {
+  font-size: 1.3em;
+  background-color: black;
+  color: white;
+}
+
+#board {
+  margin-right: 20px;
+  margin-left: 42px;
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+  grid-template-columns: 105px 105px 105px 105px 105px 105px 105px 105px 105px 105px;
+  row-gap: 2px;
+  column-gap: 2px;
+  border: 5px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+
+#board>div {
+  background-color: lawngreen;
+}
+
+#board>#p97,
+#board>#p91,
+#board>#p67,
+#board>#p55,
+#board>#p30,
+#board>#p25,
+#board>#p5 {
+  background-color: tomato;
+}
+
+#board>#p82,
+#board>#p77,
+#board>#p73,
+#board>#p60,
+#board>#p47,
+#board>#p38,
+#board>#p17,
+#board>#p7 {
+  background-color: limegreen;
+}
+
+#audio{
+  display: none;
+}
