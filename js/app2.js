@@ -319,3 +319,4 @@ function updateScore2() {
     document.querySelector('#p2s').innerHTML = score2;
     enableBtn1();
 }
+
