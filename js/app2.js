@@ -115,7 +115,7 @@ function updatePosition1() {
             element.remove();
             let template = '<img src="../images/icon3.png" id="img1">';
             arrboard[position1-1].innerHTML += template;
-            msg_out="Computer won the game!";
+            msg_out="Player-2 won the game!";
             document.querySelector('#msg').innerHTML = msg_out;
             setTimeout(function () { document.querySelector('#msg').innerHTML = msg_out; }, 1000);
             updateScore1();
@@ -225,7 +225,7 @@ function updatePosition2() {
         position2==board[66] || position2==board[90] ||
         position2==board[96]){
         // wicketAudio();
-        msg_out="Computer lost a wicket!";
+        msg_out="Player-2 lost a wicket!";
         document.querySelector('#msg').innerHTML = msg_out;
         setTimeout(function () { document.querySelector('#msg').innerHTML = msg_default; }, 1500);
 
